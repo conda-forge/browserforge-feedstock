@@ -1,5 +1,5 @@
 {% set name = "browserforge" %}
-{% set version = "1.2.1" %}
+{% set version = "1.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/browserforge-{{ version }}.tar.gz
-  sha256: 7036d73fb066a4361a015b619079474c42d8b0ff415e1d874b62366de48d0b61
+  sha256: d5bec6dffd4748b30fbac9f9c1ef33b26c01a23185240bf90011843e174b7ecc
 
 build:
   noarch: python
