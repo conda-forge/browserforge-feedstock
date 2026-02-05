@@ -22,7 +22,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - click
-    - typing_extensions
+    - apify_fingerprint_datapoints 
   run_constrained:
     - orjson *
 
